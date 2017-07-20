@@ -1,6 +1,5 @@
 <?php
 $magicNumber = mt_rand(1,100);
-echo $magicNumber . PHP_EOL;
 fwrite(STDOUT,"Would you like to guess a number? (yes/no)" . PHP_EOL);
 $input = readline("");
 
