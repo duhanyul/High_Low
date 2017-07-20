@@ -5,7 +5,6 @@ $min = 0;
 $max = 101;
 $count = 0;
 while ($input != $magicNumber) {
-  // fwrite(STDOUT,"MIN is $min and MAX is $max" . PHP_EOL);
   $input = intval(($max + $min)/2);
   echo "The Computer chose $input" . PHP_EOL;
   if ($input < $magicNumber) {
